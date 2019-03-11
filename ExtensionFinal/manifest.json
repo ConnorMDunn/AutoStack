@@ -1,0 +1,10 @@
+{
+  "name": "Test",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Get pages source from a popup",
+  "browser_action": {
+    "default_popup": "popupTest.html"
+  },
+  "permissions": ["tabs", "<all_urls>"]
+}
